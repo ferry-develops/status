@@ -24,7 +24,7 @@ status-website:
   introMessage: " "
   navbar:
     - title: Documentation
-      href: https: https://docs.ferry.cf/
+      href: https://docs.ferry.cf/
     - title: Status
       href: /
     - title: GitHub
