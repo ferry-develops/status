@@ -1,31 +1,36 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: ferry-develops # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
+
+assignees: # Users to assign downtime issues (optional)
+  - treeot
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Site
+    url: $SITE
+  - name: Documentation
+    url: $DOCUMENTATION
+  - name: Phishing Database
+    url: $PHISHING_DATABASE
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.ferry.cf
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://cdn.discordapp.com/avatars/941859797551177809/8062714b6b25d7e2560bbbab8ba226ed.png
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "**Ferry Bot Status**"
+  introMessage: " "
   navbar:
+    - title: Documentation
+      href: https: https://docs.ferry.cf/
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/treeot/statuspage
+    - title: Discord
+      href: https://ferry.cf/support
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
