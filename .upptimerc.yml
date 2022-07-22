@@ -21,7 +21,7 @@ status-website:
   theme: ocean
   # baseUrl: /your-repo-name
   logoUrl: https://cdn.discordapp.com/avatars/941859797551177809/8062714b6b25d7e2560bbbab8ba226ed.png
-  name: Upptime
+  name: Ferry Status Page
   introTitle: "**Ferry Bot Status**"
   introMessage: " "
   navbar:
