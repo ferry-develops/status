@@ -26,20 +26,20 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT }}
       - name: Update template
-        uses: treeot/uptime-monitor
+        uses: treeot/uptime-monitor@master
         with:
           command: "update-template"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
       - name: Update response time
-        uses: treeot/uptime-monitor
+        uses: treeot/uptime-monitor@master
         with:
           command: "response-time"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
       - name: Update summary in README
-        uses: treeot/uptime-monitor
+        uses: treeot/uptime-monitor@master
         with:
           command: "readme"
         env:
@@ -50,7 +50,7 @@ jobs:
           workflow: Graphs CI
           token: ${{ secrets.GH_PAT }}
       - name: Generate site
-        uses: treeot/uptime-monitor
+        uses: treeot/uptime-monitor@master
         with:
           command: "site"
         env:

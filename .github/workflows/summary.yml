@@ -25,7 +25,7 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT }}
       - name: Update summary in README
-        uses: treeot/uptime-monitor
+        uses: treeot/uptime-monitor@master
         with:
           command: "readme"
         env:
