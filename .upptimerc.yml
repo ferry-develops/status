@@ -13,6 +13,8 @@ sites:
     url: $DOCUMENTATION
   - name: Phishing Database
     url: $PHISHING_DATABASE
+  - name: Mojang API
+    url: $MOJANG_API
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
