@@ -32,9 +32,11 @@ status-website:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/ferry-develops/status
+      href: https://github.com/ferry-develops
     - title: Discord
       href: https://ferry.cf/support
 
+i18n:
+  footer: Powered by [Ferry Bot](https://ferry.cf/invite),
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
