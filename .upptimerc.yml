@@ -7,6 +7,8 @@ assignees: # Users to assign downtime issues (optional)
   - treeot
 
 sites:
+  - name: Ferry Bot
+    url: $FERRY_BOT
   - name: Site
     url: $SITE
   - name: Documentation
